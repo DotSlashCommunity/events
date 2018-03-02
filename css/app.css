@@ -1,0 +1,179 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+  /* Bad!, rid of this */
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("/assets/imgs/bg_confetti.png");
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a.link {
+  color: #757575;
+}
+
+a.link:hover {
+  color: #212121;
+}
+
+.container {
+  width: 85%;
+  height: auto;
+
+  display: block;
+}
+
+.button {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  display: inline-block;
+
+  border: none;
+  border-radius: 50px;
+  background: #F1576B;
+
+  font-size: 20px;
+  font-family: 'Poppins ExtraBold';
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+nav {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.menu  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  display: inline;
+
+  font-family: 'Poppins Regular';
+}
+
+.mast {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mast .title {
+  font-family: 'Poppins ExtraBold';
+  font-size: 90px;
+}
+
+.mast .subtitle {
+  font-family: 'Poppins ExtraBold';
+  font-size: 50px;
+}
+
+.section.content {
+  background-color: white;
+}
+
+.content.column {
+  padding-top: 20px;
+}
+
+.sec-no {
+  display: inline-block;
+
+  color: black;
+  font-size: 140px;
+  font-family: 'Poppins ExtraBold';
+  line-height: 60%;
+}
+
+.sec-sub {
+  color: black;
+  font-family: 'Poppins Regular';
+  font-weight: bold;
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.padded {
+  padding: 10px;
+}
+
+.padded.top {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.spacer {
+  widows: 100%;
+
+  padding-top: 85px;
+  padding-bottom: 85px;
+
+  background: white;
+}
+
+.title.large {
+  font-family: 'Poppins ExtraBold';
+  font-size: 65px;
+}
+
+.text {
+  font-family: 'Poppins Regular';
+  font-size: large;
+}
+
+.white.bg {
+  background: white;
+}
+
+.dark.bg {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #44000000, #000000, #44000000);
+  background-image: -moz-linear-gradient(left, #44000000, #000000, #44000000);
+  background-image: -ms-linear-gradient(left, #44000000, #000000, #44000000);
+  background-image: -o-linear-gradient(left, #44000000, #000000, #44000000); 
+}
+
+.text.center {
+  text-align: center;
+}
+
+.text.left {
+  text-align: left;
+}
+
+.text.right {
+  text-align: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.debug {
+  background: red;
+}
