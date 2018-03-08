@@ -8,17 +8,24 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  background-image: url("/assets/imgs/bg_confetti.png");
-  background-attachment: fixed;
+@media only screen and (max-width: 769px) {
+  body {
+    background-image: url('/assets/imgs/bg_confetti_mobile.png');
+  }  
 }
 
-.card, {
+@media only screen and (min-width: 770px) {
+  body {
+    background-image: url("/assets/imgs/bg_confetti.png");
+  }
+}
+
+.card {
   display: inline-block;
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  border-radius: 2px;
+  border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -292,9 +299,8 @@ hr {
   
   padding: 10px;
   overflow-x: auto;
-  ::-webkit-scrollbar {
-    display: none;
-    }
+  overflow-y: hidden;
+  margin-bottom: -14px !important;
   
   text-align: left;
 }
@@ -313,7 +319,7 @@ hr {
   }
 
   .mast .line.large {
-    font-size: 275%;  
+    font-size: 350%;  
   }
 
   .mast .subline {
@@ -342,14 +348,18 @@ hr {
   }
 
   .mobile.abs-centered {
-    position: absolute;
-    top: 50%; left: 50%;
+    position: relative;
+    top: 25%; left: 50%;
 
     transform: translate(-50%, -50%);
   }
 
   .mobile.left {
     text-align: left;
+  }
+
+  .mobile.card-spaced.top {
+    padding-top: 5%;
   }
 }
 
