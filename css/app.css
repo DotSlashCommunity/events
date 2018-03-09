@@ -173,6 +173,10 @@ nav {
   padding-top: 60px;
 }
 
+.padded.top.medium {
+  padding-top: 25px;
+}
+
 .subline-spacer {
   width: 3%;
 }
@@ -378,6 +382,11 @@ hr {
 
   .mobile.card-spaced.top {
     padding-top: 5%;
+  }
+
+  .mobile.spacer {
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
 }
 
