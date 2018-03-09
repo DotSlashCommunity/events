@@ -6,17 +6,26 @@ html, body {
 
   /* Bad!, rid of this */
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 769px) {
   body {
     background-image: url('/assets/imgs/bg_confetti_mobile.png');
-  }  
+  }
+  
+  .logo {
+    width: 12% !important;
+  }
 }
 
 @media only screen and (min-width: 770px) {
   body {
     background-image: url("/assets/imgs/bg_confetti.png");
+  }
+
+  .logo {
+    width: 10% !important;
   }
 }
 
@@ -294,17 +303,6 @@ hr {
   display: inline-block;
 }
 
-.menu.flowing {
-  position: relative;
-  
-  padding: 10px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin-bottom: -14px !important;
-  
-  text-align: left;
-}
-
 @media only screen and (max-width: 769px) {
   .mobile.only {
     display: inline-block;
@@ -328,6 +326,17 @@ hr {
   
   .title.large {
     font-size: 160%;
+  }
+
+  .menu.flowing {
+    position: relative;
+    
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: -14px !important;
+    
+    text-align: left;
   }
 
   .text {
