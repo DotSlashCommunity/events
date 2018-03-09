@@ -81,7 +81,8 @@ a.link:hover {
   background: #F1576B;
 
   font-size: 120%;
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Poppins';
+  font-weight: 800;
 }
 
 .button:hover {
@@ -102,7 +103,8 @@ nav {
 .menu li {
   display: inline;
 
-  font-family: 'Poppins Regular';
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 
 .mast {
@@ -111,7 +113,8 @@ nav {
 }
 
 .mast .line {
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Poppins';
+  font-weight: 800;
   font-size: 100%;
 }
 
@@ -120,7 +123,8 @@ nav {
 }
 
 .mast .subline {
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Poppins';
+  font-weight: 800;
   font-size: 40px;
 
   color: rgba(0, 0, 0, 0.6);
@@ -139,13 +143,15 @@ nav {
 
   color: black;
   font-size: 140px;
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Poppins';
+  font-weight: 800;
   line-height: 60%;
 }
 
 .sec-sub {
   color: black;
-  font-family: 'Poppins Regular';
+  font-family: 'Poppins';
+  font-weight: 400;
   font-weight: bold;
   font-size: 30px;
 
@@ -181,12 +187,14 @@ nav {
 }
 
 .title.large {
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Poppins';
+  font-weight: 800;
   font-size: 65px;
 }
 
 .text {
-  font-family: 'Poppins Regular';
+  font-family: 'Poppins';
+  font-weight: 400;
   font-size: large;
 }
 
@@ -247,7 +255,8 @@ hr {
 }
 
 .overlay span {
-  font-family: 'Poppins Regular';
+  font-family: 'Poppins';
+  font-weight: 400;
   font-weight: bold;
 
   color: white;
