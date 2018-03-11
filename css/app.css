@@ -119,7 +119,11 @@ nav {
 }
 
 .mast .line.large {
-  font-size: 180px;
+  font-size: 150px;
+}
+
+.mast .line.medium {
+  font-size: 120px;
 }
 
 .mast .subline {
@@ -333,6 +337,10 @@ hr {
     font-size: 350%;  
   }
 
+  .mast .line.medium {
+    font-size: 210%;
+  }
+
   .mast .subline {
     font-size: 100%;
   }
@@ -387,6 +395,10 @@ hr {
   .mobile.spacer {
     padding-top: 0px;
     padding-bottom: 30px;
+  }
+
+  .video-theater .video {
+    width: 80%;
   }
 }
 
